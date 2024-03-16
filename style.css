@@ -1,0 +1,59 @@
+.phrases-container {
+  margin-top: 40px;
+}
+
+.phrases {
+  border: none;
+}
+
+.logo {
+  width: 180px; 
+  margin-top: 10px;
+}
+
+.input-field label {
+  color: #fff;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #fff;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field .prefix.active {
+  color: #fff;
+}
+
+.error-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff4d4d;
+  color: #ffffff;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 1000; 
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: top 0.3s ease; 
+}
+
+.error-message.hide {
+  top: -100px; 
+}
